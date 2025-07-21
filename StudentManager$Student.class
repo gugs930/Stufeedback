@@ -1,0 +1,13 @@
+class StudentManager$Student {
+   String name;
+   int id;
+
+   StudentManager$Student(String var1, int var2) {
+      this.name = var1;
+      this.id = var2;
+   }
+
+   public String toString() {
+      return "ID: " + this.id + ", Name: " + this.name;
+   }
+}
